@@ -1,0 +1,37 @@
+body {
+    background: #0f0a15;
+    color: #e0d1ff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page { transition: opacity 0.5s; }
+.hidden { display: none; opacity: 0; }
+
+.glass-card {
+    background: rgba(46, 26, 71, 0.4);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(138, 43, 226, 0.3);
+    padding: 3rem;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: center;
+    width: 300px;
+}
+
+button {
+    background: linear-gradient(135deg, #6c4795, #4a2d6b);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+button.secondary { background: transparent; border: 1px solid #6c4795; }
